@@ -30,13 +30,12 @@ a:active{
     border:1px solid white;
     border-radius: 10px;
 }
-.hero-left {
-    color:white;
-    text-align: left;
+.hero-left h3 {
+    color:#243A47;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+    font-weight: bolder;
 }
-.grid-cards p{
-    text-align: left;
-}
+
 .grid-cards h3{
     color:#EF5E59;
     font-size: 2rem;
