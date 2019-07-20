@@ -1,0 +1,185 @@
+body{
+    margin:0;
+}
+
+.main-nav{
+    display:flex;
+    justify-content: center;
+    width: 100vw;
+    padding: 2rem;
+    background-color: white;
+    color:black;
+    z-index: 2;
+    }
+.main-nav a{
+    color:black;
+}
+section.hero{
+    background-color: #F87E77;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.14), 0 2px 1px -1px rgba(0,0,0,0.12), 0 1px 3px 0 rgba(0,0,0,0.20);
+    align-items: center;
+    grid-gap: 2rem;
+    padding: 5rem;
+    background-color: #f87e77;
+    color:white;
+}
+.hero-left{
+    text-align: center;
+}
+
+#hero-lady-img{
+    display: inline-block;
+    position: relative;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    height: 70vh;
+    justify-self: end;
+}
+#hero-lady-img:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+button{
+    background-color: #243A47;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    color:white;
+    border:none;
+    font-family: 'Montserrat';
+    border-radius: 10px;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    margin-top: 1rem;
+    padding:1.5rem;
+    width:auto;
+}
+button:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+}
+.content{ 
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    padding:0rem 10rem 1rem 10rem;
+    grid-gap:2rem;
+    background-color: #fff;
+    justify-items:center;
+}
+.grid-card-card{
+    height: auto;
+    image-orientation: inherit;
+    object-fit: cover;
+  min-height: 50vh;
+  max-height: 50vh;
+  width: auto;
+  max-width: 350px;
+
+  min-width:350px;
+}
+.grid-cards{
+    width:350px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    color:white;
+    text-align:center;
+    background: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+        ),
+        url(bg3.jpg);
+           image-orientation: inherit;
+           object-fit: cover;
+           background-size: cover;
+           background-position: center;
+           background-repeat: no-repeat;
+           background-attachment: fixed;    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.grid-cards:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.grid-cards h3{
+    color:white !important;
+}
+.grid-cards p{
+    padding:1rem;
+}
+div{
+    text-align: center;
+}
+i{
+    color:#5F5D6F;
+    text-align: center;
+}
+.navs i{
+color:white;
+}
+footer{
+    background: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+        ),
+        url(bg3.jpg);
+           image-orientation: inherit;
+           object-fit: cover;
+           background-size: cover;
+           background-position: center;
+           background-repeat: no-repeat;
+           background-attachment: fixed;    height: auto;
+    justify-content: center;
+    flex-grow: wrap;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    color:white;
+}
+footer h1{
+    color:white;
+}
+a:active{
+    color:white;
+}
+.sign-up-form{
+height: 100vh;
+background:#EB5452;
+padding: 0.5rem;
+margin:3rem;
+display: flex;
+justify-content: center;
+align-content: center;
+align-items: center;
+}
+input{
+    width: 50vw;
+    height: 2rem;
+    padding:1rem;
+    margin:1rem;
+}
+
+#comment-card-3{
+    background: linear-gradient(
+ rgba(0,0,0,0.5),
+ rgba(0,0,0,0.5)
+ ),
+ url(bg3.jpg);
+    image-orientation: inherit;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+#comment-card-2{
+    background: linear-gradient(
+ rgba(0,0,0,0.5),
+ rgba(0,0,0,0.5)
+ ),
+ url(bg3.jpg);
+    image-orientation: inherit;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
